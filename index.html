@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mon Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; scroll-behavior: smooth; }
+    nav{ background:#4c6dd7; padding:20px; position:fixed; width:100%; top:0; }
+    nav ul{ display:flex; justify-content:center; list-style:none; margin:0; padding:0; }
+    nav a{ color: lightblue; text-decoration:none; margin:0 10px; }
+    section{ padding:100px 10px 30px; }
+    footer{ text-align:center; padding:10px; background:#0ed8e7; }
+    form{ max-width:400px; margin:0 auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" style="color:white;">Accueil</a></li>
+        <li><a href="#about" style="color:white;">À propos</a></li>
+        <li><a href="#work" style="color:white;">Travail</a></li>
+        <li><a href="#resume" style="color:white;">CV</a></li>
+        <li><a href="#contact" style="color:white;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1 style="color:blue;">Bienvenue dans la plate forme de Gomaycode</h1>
+      <p style="font-size:30px;">Portfolio.</p>
+      <img src="assets/gom.png" width="800" height="200" alt="mon image"/>
+    </section>
+
+    <section id="about">
+      <h2>À propos</h2>
+      <p>
+        La plate forme vous donne la possibilité d'apprendre en ligne.<br/>
+        Nous vous proposons des cours riche et interessant,<br/> 
+        des projet pratique à rendre à chaque fin de chaque chapitre.<br/>
+        Nous seront à votre disposition pour répondre à toute vous question.<br/>
+         <h3 style="font-size:20px;">Exemple de quelque cours:</h3><br/>
+         </p>
+      <ul><li>HTML</li><li>CSS</li><li>JS</li></ul>
+      <!-- Ex : audio -->
+     
+        <audio controls><source src="assets/audio.mp3" type="audio/mp3"></audio>
+        <P><strong style="color:DodgerBlue;">HTML-CSS-JS en wolof <br>
+           étudiez à votre rythme <br></strong></P>
+    
+    </section>
+
+    <section id="work">
+      <h2>Les cours et Projet de Gomaycode</h2>
+
+<table style="width:60%">
+  <tr>
+    <td  style="background-color:Gray;">INTRODUCTION AU WEB</td>
+    <td style="background-color:Gray;">GITGITHUB</td>
+    <td style="background-color:Gray;">HTLM</td>
+  </tr>
+  <tr>
+    <td  style="background-color:LightGray;">Projet1</td>
+    <td   style="background-color:LightGray;">Projet2</td>
+    <td   style="background-color:LightGray;">Projet3</td>
+  </tr>
+</table>
+
+<p>A la fin de chaque cours, vous devez présenter votre projet.<br> 
+Aprés validation vous pouvez passer à la chapitre suivante.<br>
+
+Merci de votre comprehension.<br></p>
+      <!-- ou une vidéo -->
+      <video controls width="400"><source src="assets/video.mp4" type="video/mp4"></video>
+      <P><strong style="color:DodgerBlue;">Cours en ligne <br>
+         étudiez à votre rythme <br></strong></P>
+    </section>
+
+    <section id="resume">
+      <h2>Mon CV</h2> 
+     <p>Merci de bien vouloir envoyer votre CV en PDF pour <br>
+       l’étude de votre profil.<br></p>
+      <p><img src="assets/cv.png" alt="width="400 height="350" alt="mon image"/></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <label for="Prenon">Prenom</label><br>
+       <input id="Prenom" name="Prenom" required><br>
+         <label for="name">Nom</label><br>
+        <input id="name" name="Nom" required><br>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" required><br>
+        <label for="message">Formation</label><br>
+        <textarea id="message" name="Formation" rows="3" required></textarea><br>
+        <button type="submit">Envoyer</button>
+      </form>
+      <p> Veuillez remplir vos informations et appuyer sur le bouton « Envoyer » pour soumetre votre demande.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 — TAcko DIOP; email: tackodiop9@gmail.com contact "77-618-10-36"</p>
+  </footer>
+</body>
+</html>
+
+
